@@ -15,7 +15,7 @@ def math_wait(value: list, probability: list) -> float:
 
 def regular_count(sequence: str, not_summary: bool = True, *symbols: str) -> Counter():
     """
-    sequence : символьная последовательность без пробелов (исходные данные)
+    :param sequence : символьная последовательность без пробелов (исходные данные)
     :param symbols: символы, на основе которых будет осуществляться поиск под-последовательностей
     :param not_summary: True - считать количество элементов для каждой подпоследовательности
     False считать только колличество элементов в подпоследовательности
